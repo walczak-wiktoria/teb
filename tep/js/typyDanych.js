@@ -73,3 +73,8 @@ document.write("Długość boku a: " + liczba1 + "<br>")
 document.write("Długość boku b: " + liczba2 + "<br><br>")
 document.write("Suma boków: " + sumaBokow + "cm" + "<br>")
 document.write("Pole kwadratu: " + poleKw + "cm<sup>2<sup>")
+
+
+//zadanie domowe napisac program obliczajacy pole trojkatu
+
+var liczba3 =
