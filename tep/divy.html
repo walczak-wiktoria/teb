@@ -2,16 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Tytuł</title>
+        <title>DIV - suma</title>
         <link rel="stylesheet" href="style/style1.css">
-        <script src="js/script1.js"></script>
+        <!--<script src="js/script1.js"></script>-->
     </head>
-    <body>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+    <body><!--
+        <div id="d1">1</div>
+        <div id="d2">2</div>
+        <div id="d3">3</div>
+        <div id="d4">4</div>
+        <div id="d5">5</div>-->
+        <div class="lewy" id="x">x</div>
+        <div class="lewy">+</div>
+        <div class="lewy" id="y">y</div>
+        <div class="lewy">=</div>
+        <div class="lewy" id="wynik">5</div>
+        <script>
+            var x = prompt("Podaj x");
+            x = parseFloat(x);
+            var y = prompt("Podaj y");
+            y = parseFloat(y);
+            var divX = document.getElementById("x");
+            divX.innerHTML = x;
+            var divY = document.getElementById("y");
+            divY.innerHTML = y;
+            var suma = x + y;
+            var wynik = document.getElementById("wynik");
+            wynik.innerHTML = suma;
+        </script>
+<!--        ==  - rowne
+            =   - przypisuje
+-->
     </body>
 </html>
