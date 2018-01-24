@@ -77,4 +77,7 @@ document.write("Pole kwadratu: " + poleKw + "cm<sup>2<sup>")
 
 //zadanie domowe napisac program obliczajacy pole trojkatu
 
-var liczba3 =
+var liczba3 = prompt("Wpisz podstawę trójkątu")
+var liczba4 = prompt("Wpisz wysokość trójkątu")
+document.write("a=" + liczba3 + "<br>")
+document.write(liczba4 + "<br>")
