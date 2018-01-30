@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FUNKCJA</title>
+        <link rel="stylesheet" href="style/funkcje.css">
+    </head>
+    <body>
+        <script>
+/*            function witaj(imie){
+            document.write("Witaj " + imie + "<br>");
+
+        }
+
+            witaj("Janusz"); //wywoluje funkcje
+            var x = "Anna";
+            witaj(x);
+
+            // var imie1 = prompt("Podaj swoje imię.");
+
+            witaj(imie1);
+      */
+        function poleKwadratu(bok){
+            document.write("Pole wynosi: " + bok * bok + "<br>");
+        }
+        function poleKwadratu1(bok){
+            var pole = bok * bok;
+            document.write("Pole wynosi: " + pole + "<br>");
+        }
+        function poleKwadratu2(bok){
+            var pole = bok * bok;
+            return pole;
+        }
+            poleKwadratu(4);
+            poleKwadratu1(5);
+            console.log(poleKwadratu2(3));
+
+        function poleProstokata(a,b){
+            return a*b;
+        }
+            var bok1, bok2, poleProst;
+
+            bok1 = prompt("Podaj bok pierwszy");
+
+            bok2 = prompt("Podaj bok drugi");
+
+            poleProst = poleProstokata(bok1,bok2);
+
+            document.write("Pole prostokąta wynosi: " + poleProst + "cm<sup>2</sup>" + "<br>");
+
+            function poleTrojkata(a,h){
+                return (a*h)/2
+            }
+
+            var podstawa, wysokosc;
+
+            podstawa = prompt("Wpisz podstawę.");
+            wysokosc = prompt("Wpisz wysokość.");
+            poleT = poleTrojkata(podstawa,wysokosc);
+
+            document.write("Pole trójkąta wynosi: " + poleT + "cm<sup>2</sup>" + "<br>")
+            // zamiast "" uzywac '', aby pokolorowac cos za pomoca <spam style="color:blue"> i nie myily sie symbole
+        </script>
+    </body>
+</html>
