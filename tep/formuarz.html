@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>formularz</title>
+        <link rel="stylesheet" href="style/style.css">
+
+    </head>
+    <body>
+
+        <form>
+            <input type="number" id="x"> LICZBA<br>
+        </form>
+            <button id="przycisk">Pole</button>
+            <div id="wynik"></div>
+        <script>
+            var x = document.getElementById("x");
+            var przycisk = document.getElementById("przycisk");
+            var wynik = document.getElementById("wynik");
+            var pole, tekst;
+        przycisk.onclick = function(){
+            bok = x.value;
+            pole = bok * bok;
+            tekst = "Polw wynosi ";
+            tekst += '<span style="color: red">' + pole +"cm<sup>2</sup>"
+            wynik.innerHTML = tekst;
+
+        }
+
+        </script>
+    </body>
+</html>
