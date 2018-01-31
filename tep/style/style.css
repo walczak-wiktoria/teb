@@ -1,4 +1,14 @@
 body {
-    background-color:crimson;
-    font-family:arial;
+    width: 800px;
+}
+.pochyla {
+    font-style: italic;
+}
+#menu {
+    float: left;
+    width: 40%;
+}
+#tresc {
+    float: right;
+    width: 60%;
 }
