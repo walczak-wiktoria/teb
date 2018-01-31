@@ -45,6 +45,27 @@
                elKomunikat.innerHTML = x + y;
              }
            }
+           function odejmowanie(){
+             if(elPierwsza.value.length != 0 && elDruga.value.length != 0){
+                 var x = parseFloat(elPierwsza.value);
+                 var y = parseFloat(elDruga.value);
+               elKomunikat.innerHTML = x - y;
+             }
+           }
+           function mnozenie(){
+             if(elPierwsza.value.length != 0 && elDruga.value.length != 0){
+                 var x = parseFloat(elPierwsza.value);
+                 var y = parseFloat(elDruga.value);
+               elKomunikat.innerHTML = x * y;
+             }
+           }
+           function dzielenie(){
+             if(elPierwsza.value.length != 0 && elDruga.value.length != 0){
+                 var x = parseFloat(elPierwsza.value);
+                 var y = parseFloat(elDruga.value);
+               elKomunikat.innerHTML = x / y;
+             }
+           }
 
      elDodawanie.addEventListener('click', puste)
      elOdejmowanie.addEventListener('click', puste)
